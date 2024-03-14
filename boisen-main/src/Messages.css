@@ -1,0 +1,70 @@
+.message-h1{
+    color: #FFF;
+    font-size: 24px;
+    margin-left: 30px;
+    padding-top: 7px;
+}
+
+.messages-topbar{
+    border-radius: 10px 10px 0px 0px;
+    background: var(--Toisvri, #202C36);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.messages-napit
+{
+    padding-top: 12px;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.messages_span
+{
+    width: 125.384px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    color: #FFF;
+    background-color: var(--Pvri, #355668);
+    opacity: 0.8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-right: 15px;
+    padding-inline: 30px;
+    padding-block: 3px;
+}
+
+.message-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242628;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 10px 10px;
+    height: fit-content;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.message-viesti {
+    order: 0;
+}
+
+.message-info {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.h22 {
+    color: #FFF;
+    font-size: 20px;
+    margin:auto
+}

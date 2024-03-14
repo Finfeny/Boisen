@@ -1,0 +1,39 @@
+.Sidebar {
+    height: calc(99% - 20px);
+    width: 21%;
+    background-color: var(--laatikonerottaja);
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 20px;
+    min-width: 235px;
+}
+.h3 {
+    margin-top: 30px;
+    margin-left: 28px;
+    height: 35px;
+}
+
+.svg {
+    display:inline-block;
+    margin-left: 26px;
+    height: 28px;
+}
+
+.container {
+    height: 45px;
+    width: 90%;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    align-items: center;
+    color: #F7F8F7;
+    border-color: #ffffff00;
+    background-color: #ffffff00;
+    text-decoration: none;
+}
+
+.container.checked {
+    background-color: #14181C;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #1E2124;
+}

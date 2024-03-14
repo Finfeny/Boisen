@@ -1,0 +1,135 @@
+.bodys {
+  font-family: "Baloo 2";
+
+}
+
+.pagecontainer{
+  overflow: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.PageContainers {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px 0px 0px 0px;
+  background: var(--Toisvri, #202C36);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.tests {
+  width: auto;
+  height: 85px;
+  flex-shrink: 0;
+  margin: 20px;
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.5);
+}
+
+.titles, .descriptions, .subtitles, .dates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Baloo 2;
+  font-style: normal;
+  line-height: normal;
+  float: left;
+}
+
+.titles {
+  width: 100px;
+  height: 62px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 11.5px;
+  margin-bottom: 11.5px;
+  margin-left: 37px;
+}
+
+.descriptions {
+  width: 450px;
+  height: 53px;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 17px;
+  margin-bottom: 15px;
+  margin-left: 35px;
+}
+
+.subtitles {
+  width: 150px;
+  height: 53.125px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 16.88px;
+  margin-left: 11px;
+}
+
+.dates {
+  width: 100px;
+  height: 53px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 11px;
+}
+
+.testingtitles {
+  color: #FFF;
+  font-family: Baloo 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 31px;
+}
+
+.linkcomingtestss, .linkpasttestss {
+  width: 125px;
+  height: 25px;
+  flex-shrink: 0;
+  background-color: rgba(79, 190, 237, 1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-right: 14px;
+  border-radius: 50px;
+}
+
+.linkcomingtestss {
+  margin-left: auto;
+  outline: 2px solid white;
+}
+
+.titlepasts, .titlecomings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 125px;
+  height: 25px;
+  margin-top: 0px;
+  color: var(--Tekstivri, #F7F8F7);
+  text-align: center;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.linkpasttestss:hover, .linkcomingtestss:hover {
+  background-color: #176aa2; 
+}
+

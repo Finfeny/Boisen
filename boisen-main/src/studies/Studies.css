@@ -1,0 +1,148 @@
+.h111{
+    color: #FFF;
+    font-size: 24px;
+    margin-left: 30px;
+    padding-top: 7px;
+}
+
+.h41 {
+    font-size: 15px;
+}
+
+
+.h21{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 30px;
+}
+
+.topbar1{
+    border-radius: 10px 10px 0px 0px;
+    background: #202C36;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tiedote1{
+    background: #242628;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 10px 10px;
+    height: 60px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 14px;
+    display:grid;
+    grid-template-columns: 80% 10% 10%;
+}
+.viesti1{
+    grid-column: 1;
+}
+
+.nimi1{
+    grid-column: 2;
+}
+
+.aika1{
+    grid-column: 3;
+}
+
+.container1 {
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    color: #F7F8F7;
+    border-color: #ffffff00;
+    background-color: #355668;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-inline: 30px;
+}
+
+.container1.checked {
+    background-color: #4FBEED !important;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+#button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1:hover {
+    cursor: pointer;
+    background-color: #2e4958;
+}
+
+.opintoluokka {
+    margin-left: 5%;
+    margin-top: 15px;
+    color: #F7F8F7;
+    border-radius: 15px;
+    background: #1E2124;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.luokan-nimi{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 30px;
+    width: 150px;
+}
+
+.listapaska {
+    background-color: #4FBEED;
+    width: 60%;
+    height: 200px;
+    margin-left: 75px;
+}
+
+.pisteet {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.opinto {
+    margin-right: 50px;
+}
+
+.obox {
+    height: 50px;
+    width: 50px;
+    background-color: #355668;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.abox {
+    height: 50px;
+    width: 50px;
+    background-color: #4FBEED;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.boxfont {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    margin: auto;
+}

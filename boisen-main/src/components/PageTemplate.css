@@ -1,0 +1,8 @@
+.page {
+    display: flex;
+    margin-top: 20px;  
+}
+
+.PageTemplate {
+    overflow-y: hidden;
+}

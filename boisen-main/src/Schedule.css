@@ -1,0 +1,76 @@
+.h1 {
+    color:white;
+    font-size:x-large;
+}
+
+.siteName {
+    padding-left: 25px;
+    float:left;
+    margin-top: auto;
+}
+
+.scheduleTopBar {
+    border-radius: 10px 10px 0px 0px;
+    background: var(--Toisvri, #202C36);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
+    height: 40px;
+    display: grid;
+    grid-template-columns: 37% 3% 20% 3% 3%;
+}
+
+.pageNumber {
+    grid-row: 1;
+    grid-column: 3;
+    margin: auto;
+}    
+
+.leftArrow, .rightArrow {
+    border-radius: 50px;
+    margin-top: auto;
+    border: none;
+    background: none;
+    grid-row: 1;
+    text-align: center;
+}
+
+.leftArrow {
+    grid-column: 2;
+}
+
+.rightArrow {
+    grid-column: 4;
+}
+
+.schedule {
+    display:grid;
+    grid-template-columns: 12.5% 15% 15% 15% 15% 15% 12.5%;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    margin-top: 1%;
+    place-items: center;
+}
+
+.time {
+    grid-column: 1;
+    grid-auto-flow: row;
+}
+
+.daygrid {
+    grid-column-start: 2;
+}
+
+.days {
+    grid-row: 1;
+    grid-auto-flow: column;
+}
+
+.rightArrow:hover, .leftArrow:hover{
+    background: none;
+}
+
+.timeSlot {
+    background-color: lightblue;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    text-align: center;
+}

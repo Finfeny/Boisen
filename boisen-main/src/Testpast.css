@@ -1,0 +1,196 @@
+.body {
+  font-family: "Baloo 2";
+  overflow: hidden;
+}
+
+
+.PageContainertopsi {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px 0px 0px 0px;
+  background: var(--Toisvri, #202C36);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.PageContainer{
+  overflow: auto;
+
+}
+.testsi {
+  width: auto;
+  height: 85px;
+  flex-shrink: 0;
+  margin: 20px;
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.5);
+}
+
+.titlesi, .descriptionsi, .subtitlesi, .datesi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Baloo 2;
+  font-style: normal;
+  line-height: normal;
+  float: left;
+  
+}
+
+.titlesi {
+  margin-top: 11.5px;
+  margin-bottom: 11.5px;
+  margin-left: 37px;
+  width: 100px;
+  height: 62px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.descriptionsi {
+  margin-top: 17px;
+  margin-bottom: 15px;
+  margin-left: 35px;
+  width: 400px;
+  height: 53px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.subtitlesi {
+  margin-top: 15px;
+  margin-bottom: 16.88px;
+  margin-left: 11px;
+  width: 150px;
+  height: 53.125px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.datesi {
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 11px;
+  width: 100px;
+  height: 53px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.testingtitlesi {
+  color: #FFF;
+  font-family: Baloo 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 31px;
+}
+
+.linkcomingtestsi, .linkpasttestsi {
+  width: 125px;
+  height: 25px;
+  flex-shrink: 0;
+  background-color: rgba(79, 190, 237, 1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-right: 14px;
+  border-radius: 50px;
+}
+
+.linkcomingtestsi {
+  margin-left: auto;
+}
+
+.linkpasttestsi {
+  outline: 2px solid white;
+
+}
+
+.titlepastsi, .titlecomingsi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 125px;
+  height: 25px;
+  margin-top: 0px;
+  color: var(--Tekstivri, #F7F8F7);
+  text-align: center;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.gradeboxsi {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: rgba(79, 190, 237, 1);
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+  margin-top: 17px;
+  margin-bottom: 18px;
+  margin-left: 23px;
+}
+
+.gradenumbersi{
+  display: flex;
+  width: 33.333px;
+  height: 25px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-top: 13px;
+  margin-left: 8px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Baloo 2;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.linkpasttestsi:hover, .linkcomingtestsi:hover {
+  background-color: #176aa2; 
+}
+
+/* For Firefox */
+.PageContainer {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(53, 86, 104, 1) rgba(30, 30, 30, 0.5);
+}
+
+/* For Chrome, Safari, and Opera */
+.PageContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.PageContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 86, 104, 1);
+  border-radius: 1000px;
+}
+
+.PageContainer::-webkit-scrollbar-track {
+  background: rgba(30, 30, 30, 0.5);
+}
+
+/* Hover effect */
+.PageContainer:hover {
+  scrollbar-color: rgba(53, 86, 104, 1);
+}
+
+.PageContainer:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 86, 104, 1);
+}
